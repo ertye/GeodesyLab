@@ -41,34 +41,24 @@ for i in range(10):
 
     match i:
         case 0:
-            data1=pd.read_csv(FindPath+"UWEV.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station UWEV') 
         case 1:
-            data1=pd.read_csv(FindPath+"NPIT.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station NPIT') 
         case 2:
-            data1=pd.read_csv(FindPath+"CNPK.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station CNPK') 
         case 3:
-            data1=pd.read_csv(FindPath+"BYRL.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station BYRL') 
         case 4:
-            data1=pd.read_csv(FindPath+"JOKA.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station JOKA') 
         case 5:
-            data1=pd.read_csv(FindPath+"HNLC.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station HNLC') 
         case 6:
-            data1=pd.read_csv(FindPath+"HILO.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station HILO') 
         case 7:
-            data1=pd.read_csv(FindPath+"MANE.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station MANE') 
         case 8:
-            data1=pd.read_csv(FindPath+"KOSM.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station KOSM')
         case 9:
-            data1=pd.read_csv(FindPath+"AHUP.PA.tenv3.txt",header=0,sep='\s+')
             fig.suptitle('Station AHUP') 
 
     ax1=fig.add_subplot(3,1,1)
